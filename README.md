@@ -8,10 +8,10 @@ This repository presents a **comprehensive approach to emotion classification** 
 - **Anger**
 - **Fear**
 - **Surprise**
+![Emotion Distribution](emo_dis.png)
 
 We explore and compare four deep learning architectures, each in its own notebook:
-
-1. **CNN (project_cnn.ipynb)**  
+1. **CNN (cnn.ipynb)**  
    - Embedding layer, convolutional filters, and global max pooling  
    - Achieves around 90% accuracy (depending on hyperparameters)
 
@@ -44,11 +44,11 @@ The dataset is sourced from:
 ## Project Structure
 ```
 .
-├── project_cnn.ipynb   # CNN-based text classification
+├── cnn.ipynb           # CNN-based text classification
 ├── lstm.ipynb          # LSTM-based approach
 ├── BiGRU.ipynb         # Bidirectional GRU
 ├── Bert.ipynb          # BERT-based model
-├── data/               # Contains Kaggle Emotion dataset (place dataset here)
+├── text                # Contains Kaggle Emotion dataset 
 └── README.md           # Project documentation
 ```
 
@@ -60,14 +60,13 @@ The dataset is sourced from:
    ```
 2. **Obtain and place the Kaggle Emotion dataset**:
    - Download from [Kaggle: NIDULA ELGIRIYEWITHANA’s Emotion dataset](https://www.kaggle.com/datasets/nelgiriyewithana/emotions).
-   - Place the data files in the `data/` directory or follow instructions inside each notebook for exact file paths.
 
 ## Usage
 1. **Launch Jupyter Notebook** (or JupyterLab):
    ```bash
    jupyter notebook
    ```
-2. **Open any of the notebooks** (e.g., `project_cnn.ipynb`, `lstm.ipynb`, etc.):
+2. **Open any of the notebooks** (e.g., `cnn.ipynb`, `lstm.ipynb`, etc.):
    - Run the cells in order to load data, build the model, and evaluate results.
    - Each notebook details its own architecture and training routine.
 
