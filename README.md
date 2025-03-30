@@ -8,6 +8,8 @@ This repository presents a **comprehensive approach to emotion classification** 
 - **Anger**
 - **Fear**
 - **Surprise**
+
+
 ![Emotion Distribution](emo_dis.png)
 
 We explore and compare four deep learning architectures, each in its own notebook:
