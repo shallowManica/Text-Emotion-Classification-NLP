@@ -33,7 +33,6 @@ The dataset is sourced from:
 
 - Approximately **400,000** tweets labeled with one of the six emotions.  
 - Preprocessing includes tokenization, stopword removal, padding, and optional class balancing.  
-- Be sure to place or download the dataset into a `data/` folder as referenced by each notebook.
 
 ## Key Features
 - **Data Preprocessing**: Includes removing emojis/chat words, balancing classes, tokenizing, and padding.  
@@ -48,7 +47,7 @@ The dataset is sourced from:
 ├── lstm.ipynb          # LSTM-based approach
 ├── BiGRU.ipynb         # Bidirectional GRU
 ├── Bert.ipynb          # BERT-based model
-├── text                # Contains Kaggle Emotion dataset 
+├── text.csv                # Contains Kaggle Emotion dataset 
 └── README.md           # Project documentation
 ```
 
